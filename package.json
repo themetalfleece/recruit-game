@@ -1,0 +1,16 @@
+{
+  "name": "recruit-game",
+  "version": "1.0.0",
+  "description": "A game where entities randomly recruit each other",
+  "main": "dist/app.js",
+  "author": "themetalfleece",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^11.13.8",
+    "typescript": "^3.4.5"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/tsc",
+    "start": "node ./dist/app.js"
+  }
+}
